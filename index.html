@@ -210,12 +210,13 @@
 <div class="header">
     <div class="header-left">
         <h1>📡 山航商委每日资讯简报</h1>
-        <div class="update-time">最近更新：2026年5月19日 09:00</div>
+        <div class="update-time">最近更新：2026年5月20日 09:42</div>
     </div>
     <div class="header-right">
         <div class="date-select-wrapper">
             <label for="dateSelector">选择日期</label>
             <select id="dateSelector" class="date-select" onchange="switchDate(this.value)">
+                <option value="20260520">5月20日 周三</option>
                 <option value="20260519">5月19日 周二</option>
                 <option value="20260518">5月18日 周一</option>
                 <option value="20260516">5月16日 周六</option>
@@ -237,8 +238,52 @@
         <span class="column-header-text">AI 领域动态</span>
     </div>
 
+    <!-- 5月20日 AI -->
+    <div class="date-content active" id="ai-20260520">
+        <div class="category-block">
+            <div class="category-title ai-sub">📝 AI生成文本</div>
+            <div class="news-item ai-item">
+                <div class="news-title">谷歌I/O 2026重磅发布：Gemini 3.5 Flash速度提升4倍、成本降半</div>
+                <div class="news-summary">Gemini 3.5 Flash正式发布，生成速度是其他前沿模型的4倍，成本仅为一半，专为AI Agent和编码工具优化。即日起向开发者和企业用户开放。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641756099917496851/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">Kimi K2.6与DeepSeek V4继续领跑全球大模型排行榜</div>
+                <div class="news-summary">国产大模型在全球评测中以94.3和93.8的综合得分占据前两位，持续保持全球领先优势。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641756099917496851/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🎬 AI生成视频</div>
+            <div class="news-item ai-item">
+                <div class="news-title">Gemini Omni：世界模型支持对话式视频生成与编辑</div>
+                <div class="news-summary">Gemini Omni可基于多种输入生成视频，支持对话式编辑和实时修改角色、背景、场景。用户可上传自拍并转换为其他风格，首款模型将于今年夏季推出。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641742034121818665/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🌐 其他动态</div>
+            <div class="news-item ai-item">
+                <div class="news-title">Cursor推出Composer 2.5：基于Kimi K2.5，成本仅为Claude Opus 4.7的1/10</div>
+                <div class="news-summary">AI编程工具Cursor发布Composer 2.5，基于月之暗面Kimi K2.5开源权重构建，性能对标Claude Opus 4.7，成本仅为1/10。马斯克转发邀请用户测试。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641458869159395878/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">全球AI眼镜销量预计从600万飙升至2000万部</div>
+                <div class="news-summary">广发证券预测，2026年全球AI眼镜销量将从2025年的600万部飙升至2000万部，市场规模从12亿美元暴涨至56亿美元。杭州心眸科技发布全球首款"主动式AI眼镜"。</div>
+                <a class="news-link" href="https://blog.csdn.net/matlab_python22/article/details/160737064" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">智元机器人第10000台具身机器人"远征A3"正式下线</div>
+                <div class="news-summary">智元机器人在15个月内实现量产规模十倍级跨越，机器人已成功部署在汽车制造、3C电子装配、物流仓储等真实工业场景，24小时不间断作业。</div>
+                <a class="news-link" href="https://blog.csdn.net/weixin_56622231/article/details/160501725" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 谷歌I/O 2026发布Gemini 3.5 Flash/Omni/Spark三大产品 | 国产大模型Kimi K2.6与DeepSeek V4领跑全球 | AI眼镜市场爆发式增长</div>
+    </div>
+
     <!-- 5月19日 AI -->
-    <div class="date-content active" id="ai-20260519">
+    <div class="date-content" id="ai-20260519">
         <div class="category-block">
             <div class="category-title ai-sub">📝 AI生成文本</div>
             <div class="news-item ai-item">
@@ -484,8 +529,53 @@
         <span class="column-header-text">航司营销数字化</span>
     </div>
 
+    <!-- 5月20日 航司 -->
+    <div class="date-content active" id="av-20260520">
+        <div class="category-block">
+            <div class="category-title aviation-sub">🤖 数据与AI应用</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">海南航空×天阳科技签署十年航空互联网合同</div>
+                <div class="news-summary">天阳科技与海航、环球航通签署10年合作协议，布局机载金融科技。旅客可在空中完成支付、浏览广告、购买电商产品，航司获得增值收入，形成"机+流量+X"生态闭环。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641778923310809615/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🎫 会员与常旅客</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">国航系数字资产正式上线，凤凰知音会员可购买</div>
+                <div class="news-summary">凤凰知音会员在活动期间搭乘国航系航司指定航线、指定舱位，即可解锁数字资产专属购买权益，每枚数字资产包含2个保级航段。</div>
+                <a class="news-link" href="https://m.weibo.cn/detail/5299872388877589" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📊 市场与战略</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">长龙航空完成上市辅导，将冲刺A股IPO</div>
+                <div class="news-summary">浙江长龙航空于5月15日顺利完成浙江证监局上市辅导验收，成为国内第8家上市客运航空公司，也是2018年华夏航空上市后近八年来A股迎来的首家民营客运航司。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641518298470810158/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">💰 收益管理与定价</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">全球航煤价格涨幅超80%，各航司CFO共商应对策略</div>
+                <div class="news-summary">IATA首届航空CFO峰会在海口举行。受中东局势冲击，航煤价格同比涨幅超80%，全球航司5月计划已砍掉1.3万架次，夏季计划将缩减930万个座位。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7641523670166340096/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🌐 行业生态</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">TMC服务商面临三重压力：机酒涨价、供给增加、收费下降</div>
+                <div class="news-summary">机票价格同比上涨29.2%，全球航煤价格涨超一倍，而TMC服务费0服务费已成行业常态。三大航严禁机票代理人在OTA及第三方平台上供货，违规者一张票罚款2万元。</div>
+                <a class="news-link" href="http://m.163.com/news/article/KT75C7FS05118QUG.html" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 海航×天阳科技布局机载金融科技10年 | 长龙航空冲刺A股IPO | 航煤价格涨80%航司被迫削运力</div>
+    </div>
+
     <!-- 5月19日 航司 -->
-    <div class="date-content active" id="av-20260519">
+    <div class="date-content" id="av-20260519">
         <div class="category-block">
             <div class="category-title aviation-sub">🤖 数据与AI应用</div>
             <div class="news-item aviation-item">
