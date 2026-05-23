@@ -210,12 +210,13 @@
 <div class="header">
     <div class="header-left">
         <h1>📡 山航商委每日资讯简报</h1>
-        <div class="update-time">最近更新：2026年5月22日 09:15</div>
+        <div class="update-time">最近更新：2026年5月23日 09:10</div>
     </div>
     <div class="header-right">
         <div class="date-select-wrapper">
             <label for="dateSelector">选择日期</label>
             <select id="dateSelector" class="date-select" onchange="switchDate(this.value)">
+                <option value="20260523">5月23日 周六</option>
                 <option value="20260522">5月22日 周五</option>
                 <option value="20260521">5月21日 周四</option>
                 <option value="20260520">5月20日 周三</option>
@@ -240,8 +241,49 @@
         <span class="column-header-text">AI 领域动态</span>
     </div>
 
+    <!-- 5月23日 AI -->
+    <div class="date-content active" id="ai-20260523">
+        <div class="category-block">
+            <div class="category-title ai-sub">📝 AI生成文本</div>
+            <div class="news-item ai-item">
+                <div class="news-title">OpenAI完成1220亿美元融资同时关停Sora：资源整合押注AGI</div>
+                <div class="news-summary">OpenAI完成创历史纪录的1220亿美元融资，但几乎同时宣布关闭视频生成项目Sora。所有Sora相关团队和技术资源正在被整合进推理模型o1和AGI核心攻关项目中。OpenAI正在用"做减法"的方式做加法——砍掉旁枝，把所有弹药押注在最核心的战场上。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">智谱GLM-5V-Turbo：看截图就能写代码，Design2Code拿下94.8分</div>
+                <div class="news-summary">智谱AI发布GLM-5V-Turbo多模态编程基座模型，实现真正意义上的范式跃迁：AI不再只是"听懂描述写代码"，而是直接看懂设计稿、网页截图，然后生成可运行的前端代码。在Design2Code基准测试中拿下94.8分，超越所有竞争对手。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🌐 其他动态</div>
+            <div class="news-item ai-item">
+                <div class="news-title">Anthropic与亚马逊谈判破裂：AI"紧急制动权"首次写入商业合同</div>
+                <div class="news-summary">亚马逊希望取得Claude模型的无限制商用授权，但Anthropic坚决要求加入"灭绝风险"条款——一旦AI出现失控迹象，Anthropic有权立即关停模型。这是AI安全议题首次从学术会议室被推向商业合同谈判桌，可能为整个行业树立全新安全基准线。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">Claude Code 51万行源码泄露："AI领域的切尔诺贝利时刻"</div>
+                <div class="news-summary">Claude Code 51万行核心源代码泄露，直接暴露了Anthropic内部的KAIROS原生智能体架构。业内有人称之为"AI领域的切尔诺贝利时刻"——一家顶尖AI公司的技术"家底"被彻底摊开。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">AI重塑全球贸易金融：农行全流程智能化</div>
+                <div class="news-summary">中国农业银行在五月释放重要信号：AI将全面融入企业接单、物流、报关、收付款等全贸易环节。金融服务从传统的"企业申请"模式，转变为"按需触发、精准嵌入"：企业在跨境平台接单的瞬间，物流服务自动匹配、报关单据智能生成、跨境收付款即时到账。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">2026上海科技节开幕：前沿科技与城市生活深度交融</div>
+                <div class="news-summary">5月23日，2026上海科技节正式开幕，延续"科技让生活更美好"的主题，今年更加强调前沿科技与城市生活的深度交融——AI、机器人、量子计算不再是展馆里的"远观对象"，而是走入市集、社区的"身边体验"。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642861420707414579/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 OpenAI融资1220亿美元却关停Sora押注AGI | 智谱Design2Code拿下94.8分 | AI安全首进商业合同 | Claude Code源码泄露</div>
+    </div>
+
     <!-- 5月22日 AI -->
-    <div class="date-content active" id="ai-20260522">
+    <div class="date-content" id="ai-20260522">
         <div class="category-block">
             <div class="category-title ai-sub">🌐 其他动态</div>
             <div class="news-item ai-item">
@@ -717,8 +759,55 @@
         <div class="highlight-box">📌 国航凤凰知音数字资产上线 | 南航51.9万套福利机票惠民 | 斯里兰卡航空PROS续约六年扩展AI实时报价 | 西南航空海得拉巴建全球创新中心</div>
     </div>
 
+    <!-- 5月23日 航司 -->
+    <div class="date-content active" id="av-20260523">
+        <div class="category-block">
+            <div class="category-title aviation-sub">🤖 数据与AI应用</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">中国AOPA航空大模型2.6版本发布：正式推出"AI+适航"能力体系</div>
+                <div class="news-summary">5月21日，2026世界无人机大会期间，中国AOPA航空大模型2.6版本正式发布，最大的亮点是正式推出"AI+适航"能力体系，依托大模型智能推理、知识图谱与行业规则引擎技术，构建面向中大型无人机适航审定的专业智能体，可实现型号合规文件智能审阅、适航条款自动比对验证、审查过程全链路追溯。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642524253912351247/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">峰飞V5000"天际龙"启动适航取证，混合编队飞行验证多机协同</div>
+                <div class="news-summary">5月21日，峰飞航空科技同时放出两大进展：V5000天际龙正式启动适航取证流程，基于该平台打造的货运混动构型V5000CGH也同步按规划推进适航工作；当天，由1架V5000搭配2架V2000组成的"混合三机编队"顺利完成演示飞行，验证了多机协同能力。</div>
+                <a class="news-link" href="https://www.coze.cn/share-article/201779441862931744" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🎫 会员与常旅客</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">阿联酋航空Skywards推出"Season of Rewards"：50%额外里程奖励</div>
+                <div class="news-summary">阿联酋航空常旅客计划推出全球性"Season of Rewards"活动，时间从5月21日至8月31日。会员可享受双倍Cash+Miles抵扣（2000里程可抵扣30美元）、乘坐阿联酋航空或flydubai航班额外20%等级里程、合作伙伴酒店/租车/航司50%额外里程等优惠，助力会员加速等级晋升。</div>
+                <a class="news-link" href="https://tradearabia.com/News/462806/Emirates-Skywards-launches-%27Season-of-Rewards%27-campaign/TTN" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">东航"银游天下"活动：55岁以上银卡会员额外30%里程积分</div>
+                <div class="news-summary">东航特别为银发族会员推出"银游天下"积分加赠活动，凡55周岁（含）以上"东方万里行"银卡及以上等级会员，在5月15日至6月19日、10月9日至12月31日活动期间乘坐东、上航实际承运航班，在常规里程积分累积的基础上，额外获得30%里程积分奖励。</div>
+                <a class="news-link" href="https://m.weibo.cn/detail/5301320450050527" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📱 渠道与触点</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">国航打造"航空+演艺"枢纽网络，助力文旅消费新热潮</div>
+                <div class="news-summary">国航紧扣"旅游+演艺"融合新机遇，完善航线网络，优化"机票+"产品打造一站式观演体验。APP端上线"打个飞的去上海"观演主题产品，携手OTA以"机票+X"组合模式满足多元需求，上线首日即售出500余份。南京、厦门、温州等营业部联合当地文旅局推出"航空+演艺"文旅盲盒。</div>
+                <a class="news-link" href="http://www.redsh.com/pinpai/20260522/000859.shtml" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🌐 行业生态</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">乌鲁木齐国际航空货运枢纽论坛：山航等国内外航司共商货运高质量发展</div>
+                <div class="news-summary">5月21-22日，乌鲁木齐国际航空货运枢纽建设论坛暨2026年支线航空物流发展研讨会成功举办。土耳其航空、埃塞俄比亚航空、卡塔尔航空、山东航空等国内外航司参会。山航在会上推介货运航线与合作方案，共商向西开放空中丝路新蓝图。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642576834445460031/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 AOPA航空大模型2.6发布 | eVTOL峰飞V5000适航取证启动 | 阿联酋航空50%额外里程奖励 | 国航"航空+演艺"文旅融合</div>
+    </div>
+
     <!-- 5月22日 航司 -->
-    <div class="date-content active" id="av-20260522">
+    <div class="date-content" id="av-20260522">
         <div class="category-block">
             <div class="category-title aviation-sub">🤖 数据与AI应用</div>
             <div class="news-item aviation-item">
