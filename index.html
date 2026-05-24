@@ -210,12 +210,13 @@
 <div class="header">
     <div class="header-left">
         <h1>📡 山航商委每日资讯简报</h1>
-        <div class="update-time">最近更新：2026年5月23日 09:10</div>
+        <div class="update-time">最近更新：2026年5月24日 09:10</div>
     </div>
     <div class="header-right">
         <div class="date-select-wrapper">
             <label for="dateSelector">选择日期</label>
             <select id="dateSelector" class="date-select" onchange="switchDate(this.value)">
+                <option value="20260524">5月24日 周日</option>
                 <option value="20260523">5月23日 周六</option>
                 <option value="20260522">5月22日 周五</option>
                 <option value="20260521">5月21日 周四</option>
@@ -241,8 +242,52 @@
         <span class="column-header-text">AI 领域动态</span>
     </div>
 
+    <!-- 5月24日 AI -->
+    <div class="date-content active" id="ai-20260524">
+        <div class="category-block">
+            <div class="category-title ai-sub">📝 AI生成文本</div>
+            <div class="news-item ai-item">
+                <div class="news-title">OpenAI万亿IPO在即，DeepSeek获国家队3000亿押注</div>
+                <div class="news-summary">OpenAI准备在未来几周内提交IPO文件，估值可能达到1万亿美元。同时，DeepSeek完成30-40亿美元融资，估值达3000亿元，获得国家大基金投资。V4模型达1.6万亿参数MoE架构，原生支持100万token上下文。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643122317345833510/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">Anthropic完成超300亿美元融资，估值突破9000亿美元</div>
+                <div class="news-summary">Anthropic正接近完成超大规模融资，估值有望突破9000亿美元，可能超越OpenAI成为全球估值最高的人工智能初创公司。主要投资方包括红杉资本、Dragoneer Investment Group等顶级机构。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643055101729145387/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🎬 AI生成视频</div>
+            <div class="news-item ai-item">
+                <div class="news-title">3000元AI短片全球爆火：戛纳95分钟长片成本暴跌百倍</div>
+                <div class="news-summary">95分钟AI长片《Hell Grind》在戛纳完成全球首映，字节Seedance 2.0制作，15人团队14天成本仅50万美元。同时，29岁云南女孩刘梓瑜用3000元、10天制作的短片《丧尸清道夫》抖音获352万点赞，好莱坞制作人公开寻求合作。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643248768686506542/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">快手可灵月活780万登顶全球AI视频榜首，ARR破3亿美元</div>
+                <div class="news-summary">快手可灵AI在2026年3月月活跃用户达780万，断层领先OpenAI Sora的470万。ARR（年化收入运行率）已突破3亿美元，快手对今年实现收入同比翻倍以上增长有较强信心。</div>
+                <a class="news-link" href="https://blog.csdn.net/xixixi7777/article/details/159909347" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🌐 其他动态</div>
+            <div class="news-item ai-item">
+                <div class="news-title">2026世界无人机大会举办：AI低空经济加速融合</div>
+                <div class="news-summary">2026世界无人机大会于5月21日至23日在深圳举办，以"低空经济 飞向未来"为主题。来自17个国家和地区的1220家无人机及低空经济相关企业参展，从"实验室"走向"实战场"，eVTOL、重载无人直升机、AI低空感知引擎等融合创新应用集中亮相。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643098515371868708/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">谷歌Gemini Omni发布：全模态世界模型一句话生成视频</div>
+                <div class="news-summary">谷歌DeepMind团队推出Gemini Omni全模态世界模型，可接收图片、音频、视频、文字任意组合输入生成连贯视频。具备世界理解、任意模态输入、对话式编辑三项能力整合，使AI对物理世界的理解从"像"转变为"懂"。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642667806047191615/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 OpenAI万亿IPO+DeepSeek 3000亿国家队入场 | Anthropic估值9000亿 | 可灵780万月活登顶 | AI短片3000元引爆全球</div>
+    </div>
+
     <!-- 5月23日 AI -->
-    <div class="date-content active" id="ai-20260523">
+    <div class="date-content" id="ai-20260523">
         <div class="category-block">
             <div class="category-title ai-sub">📝 AI生成文本</div>
             <div class="news-item ai-item">
@@ -759,8 +804,42 @@
         <div class="highlight-box">📌 国航凤凰知音数字资产上线 | 南航51.9万套福利机票惠民 | 斯里兰卡航空PROS续约六年扩展AI实时报价 | 西南航空海得拉巴建全球创新中心</div>
     </div>
 
+    <!-- 5月24日 航司 -->
+    <div class="date-content active" id="av-20260524">
+        <div class="category-block">
+            <div class="category-title aviation-sub">🎫 会员与常旅客</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">国航「知音快线·飞快」数字资产上线：520元含2个保级航段</div>
+                <div class="news-summary">国航凤凰知音会员在5月20日至6月30日期间，乘坐国航、深航、山航指定航班V舱及以上，可解锁数字资产购买资格。每枚520元包含2个保级航段，覆盖北京、上海、广州、深圳等20个城市出发航线，解决常旅客"还差几段保级"的痛点。</div>
+                <a class="news-link" href="https://user.guancha.cn/wap/content?id=1656818" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🤖 数据与AI应用</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">武汉天河机场联合航旅纵横推出「超级中转一码通」</div>
+                <div class="news-summary">武汉天河机场联合中航信、航旅纵横打造"超级中转一码通"数字化服务平台，推动中转权益智能匹配、服务入口实时触达，实现从"人找服务"向"服务找人"的智能化升级。同楼无行李中转时间压缩至45分钟，MCT指标稳居行业第一梯队。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643022848604357183/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📱 渠道与触点</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">2026年AI营销市场规模预计680亿元，同比增长51.1%</div>
+                <div class="news-summary">据艾瑞咨询报告，2026年国内AI营销市场规模预计达680亿元，同比增长51.1%。BCG调研显示62%企业用户已将AI搜索作为获取商业信息主要渠道，但80%以上企业在AI搜索端"隐形"，面临无曝光、无收录、无转化的三重困境。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643011334442926644/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">同程旅行AI比价功能上线：上传截图自动全网比价</div>
+                <div class="news-summary">同程旅行上线"AI比价"功能，用户上传其他平台机票截图即可自动完成全网比价，发现买贵可享受差价补贴。针对用户"怕买贵、怕退改"痛点，平台整合确定性保障权益，支持口令码一键领取。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7642874571711840804/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 国航「飞快」数字资产上线：520元含2保级航段 | 武汉天河「超级中转一码通」智能化升级 | 2026年AI营销市场680亿</div>
+    </div>
+
     <!-- 5月23日 航司 -->
-    <div class="date-content active" id="av-20260523">
+    <div class="date-content" id="av-20260523">
         <div class="category-block">
             <div class="category-title aviation-sub">🤖 数据与AI应用</div>
             <div class="news-item aviation-item">
