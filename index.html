@@ -210,12 +210,13 @@
 <div class="header">
     <div class="header-left">
         <h1>📡 山航商委每日资讯简报</h1>
-        <div class="update-time">最近更新：2026年5月24日 09:10</div>
+        <div class="update-time">最近更新：2026年5月25日 09:12</div>
     </div>
     <div class="header-right">
         <div class="date-select-wrapper">
             <label for="dateSelector">选择日期</label>
             <select id="dateSelector" class="date-select" onchange="switchDate(this.value)">
+                <option value="20260525">5月25日 周一</option>
                 <option value="20260524">5月24日 周日</option>
                 <option value="20260523">5月23日 周六</option>
                 <option value="20260522">5月22日 周五</option>
@@ -242,8 +243,57 @@
         <span class="column-header-text">AI 领域动态</span>
     </div>
 
+    <!-- 5月25日 AI -->
+    <div class="date-content active" id="ai-20260525">
+        <div class="category-block">
+            <div class="category-title ai-sub">📝 AI生成文本</div>
+            <div class="news-item ai-item">
+                <div class="news-title">AI首次通过图灵测试：GPT-4.5骗过73%人类裁判</div>
+                <div class="news-summary">加州大学圣迭戈分校在《美国国家科学院院刊》发表研究：GPT-4.5在严格图灵测试中被73%人类裁判误判为真人，对照组真人仅30%被误判为AI。关键技术突破在于"社交智能"——能正确理解潜台词、幽默、讽刺，还能故意"不完美"以提升可信度。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643630281357836850/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">Qwen3.7-Max登顶国产第一：阿里大模型三个月三连跳</div>
+                <div class="news-summary">阿里发布Qwen3.7-Max，在Arena全球盲测总榜超越Kimi-K2.6、DeepSeek-v4-pro位列国产第一。编程评测Terminal Bench 2.0得分69.7超越Claude Opus 4.6。更震撼的是，模型在35小时内自主完成新芯片平台内核优化，实现10倍加速。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643464856649220650/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🎨 AI生成图片</div>
+            <div class="news-item ai-item">
+                <div class="news-title">GPT Image 2.0引领AI生图商用元年：文字渲染准确率大幅提升</div>
+                <div class="news-summary">2026年被视作AI生图商用落地元年，GPT Image 2.0重新定义商用标准。文字渲染准确率大幅提升，完美适配中英文混排、规范字体排版，彻底告别文字模糊错乱。画质升级至高清级别，材质肌理、光影层次高度贴合现实审美，可满足海报文案、包装印刷等精细化场景需求。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643624754276811304/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">AI假图要带"身份证"：谷歌隐形水印覆盖1000亿张图片</div>
+                <div class="news-summary">OpenAI和谷歌联合推进AI生成图片来源标记，谷歌隐形水印技术已覆盖超过1000亿张图片和6万年长度音频。将验证能力整合进谷歌搜索、浏览器和手机识图入口，用户可直接查询图片是否由AI生成。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643384211420611072/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🌐 其他动态</div>
+            <div class="news-item ai-item">
+                <div class="news-title">中国AI周调用量7.94万亿Token，首次超越美国</div>
+                <div class="news-summary">据Openrate统计，5月4日-10日一周中国AI大模型总调用量7.94万亿Token，美国3.76万亿，中国AI调用量是美国的2.11倍。腾讯混元2.68万亿Token蝉联全球榜首，Kimi K2.6以1.61万亿位列全球第二，DeepSeek全系2.99万亿首次超越OpenAI全系。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643493046264283700/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">DeepSeek V4-Pro永久降价75%：搅局AI价格战</div>
+                <div class="news-summary">DeepSeek宣布V4-Pro模型API永久降价75%，每百万Tokens仅需3美元。GPT-5.5同等量级输出费用是DeepSeek的36倍。路透社评价此举打破全球高端大模型定价体系，以技术压缩成本方式拉开新一轮价格竞争序幕。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643594582583722530/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">剪映国际版联手谷歌Gemini：内置AI剪辑功能</div>
+                <div class="news-summary">字节跳动旗下剪映（CapCut）国际版与谷歌Gemini达成合作，在Gemini中直接集成视频剪辑功能，用户可在一个APP内完成AI生成、剪辑、出片全流程。这意味着AI视频创作门槛进一步降低。</div>
+                <a class="news-link" href="https://tech.163.com/keywords/5/6/526a6620/1.html" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 AI首次通过图灵测试 | Qwen3.7-Max登顶国产第一 | 中国AI周调用量首超美国 | DeepSeek永久降价75%</div>
+    </div>
+
     <!-- 5月24日 AI -->
-    <div class="date-content active" id="ai-20260524">
+    <div class="date-content" id="ai-20260524">
         <div class="category-block">
             <div class="category-title ai-sub">📝 AI生成文本</div>
             <div class="news-item ai-item">
@@ -804,8 +854,55 @@
         <div class="highlight-box">📌 国航凤凰知音数字资产上线 | 南航51.9万套福利机票惠民 | 斯里兰卡航空PROS续约六年扩展AI实时报价 | 西南航空海得拉巴建全球创新中心</div>
     </div>
 
+    <!-- 5月25日 航司 -->
+    <div class="date-content active" id="av-20260525">
+        <div class="category-block">
+            <div class="category-title aviation-sub">🤖 数据与AI应用</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">上海机场联手中国航信：六大方向共建智慧枢纽</div>
+                <div class="news-summary">5月20日，上海机场与中国航信签署战略合作框架协议，六大核心方向包括：国际航空枢纽建设、人才交流、新技术研究、创新实验室、数据资源共享、机场改扩建项目。中国航信握有国内民航最庞大的航班、旅客、行李数据，将为浦东机场四期扩建装上"智慧芯"。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643000666050363923/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🎫 会员与常旅客</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">印尼鹰航GarudaMiles买里程最高100%加赠</div>
+                <div class="news-summary">印尼鹰航上线限时买里程福利，会员参与里程购买可享受阶梯式额外赠送，最高能够获得100%翻倍加赠。所得里程可兑换机票、办理舱位升舱，还能兑换合作航司出行权益，活动截至6月2日。</div>
+                <a class="news-link" href="https://www.wangwenlei.com/category/airline/%E5%8D%B0%E5%BA%A6%E5%B0%BC%E8%A5%BF%E4%BA%9A%E9%B9%B0%E8%88%AA" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">国航首乘优惠：购买国内航线立减50元</div>
+                <div class="news-summary">过去三年未乘坐过国航国内航线的旅客注意，现在购买国航国内航线机票可立减50元。打开航旅纵横APP，进入「机票」页面，选择国航航班并点击「首乘优惠」，符合条件即可享受专属价格。</div>
+                <a class="news-link" href="https://m.weibo.cn/detail/5301334920139471" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📱 渠道与触点</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">4月民航客运量6119.9万人次，货邮运输量85.4万吨</div>
+                <div class="news-summary">据民航局数据，4月全国民航旅客运输量6119.9万人次同比增长0.4%；货邮运输量85.4万吨同比增长6.9%，其中国际航线货邮运输量同比增长12.9%，国际物流需求持续旺盛。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643358483866042880/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🔧 技术与数字化</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">郑州机场高峰小时容量提升至53架次，增幅8.2%</div>
+                <div class="news-summary">5月22日，民航局正式批复郑州新郑国际机场高峰小时容量标准由49架次/小时调整为53架次/小时，增幅约8.2%。此次调整使郑州机场获得更多时刻资源，进一步巩固其国际航空枢纽地位。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643358483866042880/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">新版《民用航空法》7月1日起施行，低空经济首次入法</div>
+                <div class="news-summary">新修订的《民用航空法》将于7月1日起正式施行，共16章262条，系1995年颁布以来首次全面修订。低空经济首次入法，无人驾驶航空器飞行管理有法可依。同时《民用无人驾驶航空器实名登记和激活要求》等两项强标正式实施。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7643358483866042880/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 上海机场联手中国航信共建智慧枢纽 | 4月民航客运量6119.9万 | 郑州机场时刻容量提升8.2% | 新版民航法7月施行低空经济首入法</div>
+    </div>
+
     <!-- 5月24日 航司 -->
-    <div class="date-content active" id="av-20260524">
+    <div class="date-content" id="av-20260524">
         <div class="category-block">
             <div class="category-title aviation-sub">🎫 会员与常旅客</div>
             <div class="news-item aviation-item">
