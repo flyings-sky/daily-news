@@ -210,12 +210,13 @@
 <div class="header">
     <div class="header-left">
         <h1>📡 山航商委每日资讯简报</h1>
-        <div class="update-time">最近更新：2026年5月29日 09:15</div>
+        <div class="update-time">最近更新：2026年5月30日 09:10</div>
     </div>
     <div class="header-right">
         <div class="date-select-wrapper">
             <label for="dateSelector">选择日期</label>
             <select id="dateSelector" class="date-select" onchange="switchDate(this.value)">
+                <option value="20260530">5月30日 周六</option>
                 <option value="20260529">5月29日 周五</option>
                 <option value="20260528">5月28日 周四</option>
                 <option value="20260527">5月27日 周三</option>
@@ -247,8 +248,85 @@
         <span class="column-header-text">AI 领域动态</span>
     </div>
 
+    <!-- 5月30日 AI -->
+    <div class="date-content active" id="ai-20260530">
+        <div class="category-block">
+            <div class="category-title ai-sub">📝 AI生成文本</div>
+            <div class="news-item ai-item">
+                <div class="news-title">Anthropic完成650亿美元融资，估值逼近万亿美元筹备IPO</div>
+                <div class="news-summary">Anthropic完成新一轮650亿美元融资，投后估值接近1万亿美元，首次超越OpenAI（估值8520亿美元）。同时发布Claude Opus 4.8，新增"动态工作流"功能，AI可自动规划多步骤任务，代码缺陷率降至前代1/4，速度提升2.5倍，成本降至1/3。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645237887792841266/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">苹果Siri迎近十五年最大改版：最快9月推出，集成Gemini技术</div>
+                <div class="news-summary">苹果公司宣布Siri迎来近15年最大规模改版，将成为下一代iPhone、iPad和Mac软件更新核心亮点。新版Siri包含此前延期功能，并可能推出基于Gemini技术的模型和AI网络搜索等，最快今年9月面向消费者推出。</div>
+                <a class="news-link" href="https://finance.sina.com.cn/stock/usstock/c/2026-05-29/doc-inhznzrx9706783.shtml" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">OpenAI GPT-5.5 Instant重大更新，多模态能力全面升级</div>
+                <div class="news-summary">OpenAI发布GPT-5.5 Instant重大更新，采用新型混合Transformer架构结合稀疏MoE层，支持文本、表格、图像数据统一处理。法律、医疗、金融等专业领域能力大幅提升，可解析长合同、识别风险条款并建议修改。</div>
+                <a class="news-link" href="https://chatgptaihub.com/gpt-5-5-instant-may-28-update/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🎨 AI生成图片</div>
+            <div class="news-item ai-item">
+                <div class="news-title">腾讯发布全场景创意智能体工作室Miora，支持一键生成品牌视觉方案</div>
+                <div class="news-summary">腾讯在香港Cloud Day正式推出全场景创意智能体工作室Miora国际版，一句话可生成图片、视频、UI/UX及3D等多模态内容，将制作周期从数周缩短至数小时。搭载多个海内外主流视觉模型，能自动拆解任务并按专业工作流生成整套品牌视觉方案。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645259682759590443/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">商汤开源SenseNova-U1-8B信息图增强版，成本约为GPT-Image 2的1/10</div>
+                <div class="news-summary">商汤科技开源SenseNova-U1-8B-MoT-Infographic信息图增强版，在结构化版面、密集中英文混排、图文精准对齐任务上表现优异。采用Apache 2.0协议支持商用，单卡可跑，成本约为闭源方案的十分之一。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645312358893568512/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">微软正式发布MAI-Image-1，登陆Bing Image Creator和Copilot</div>
+                <div class="news-summary">微软正式发布首款AI图像生成器MAI-Image-1，登陆Bing Image Creator和Copilot。擅长食物和自然场景的逼真渲染，具备艺术照明和照片级细节，正计划扩展至欧盟市场。</div>
+                <a class="news-link" href="https://www.aibase.com/search/AI%20image%20generator" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🎬 AI生成视频</div>
+            <div class="news-item ai-item">
+                <div class="news-title">字节Seedance 2.0亮相戛纳，国产AI视频实现工业化突破</div>
+                <div class="news-summary">字节Seedance 2.0在戛纳电影节迎来高光时刻，基于该模型制作的95分钟AI长片《Hell Grind》全球首映，仅用14天完成传统团队数月工作量。同时两部国产AI短剧成功入选戛纳官方展演单元，实现中国AI影像作品首次登陆国际A类电影节核心舞台。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645285144835670547/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">Google推出Gemini Omni，支持文本图片视频混合输入生成10秒视频</div>
+                <div class="news-summary">Google发布Gemini Omni多模态AI，可结合文本、照片、剪辑和声音生成长达10秒的视频。用户只需描述场景或上传素材，AI即可创建视频，并支持迭代式修改和角度调整等操作。</div>
+                <a class="news-link" href="https://www.teletica.com/contenido-patrocinado/google-lanzo-gemini-omni-la-ia-que-genera-videos-de-hasta-10-segundos-con-una-sola-instruccion_409246" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title ai-sub">🌐 其他动态</div>
+            <div class="news-item ai-item">
+                <div class="news-title">2026世界智能产业博览会天津开幕，40余款AI大模型集中亮相</div>
+                <div class="news-summary">2026世界智能产业博览会在天津举行，40余款大模型集中亮相。本届展会大模型从以前的能力展示真正迈向产业应用，覆盖语言大模型、视觉大模型、基础科学大模型等，广泛应用在搜索引擎、智能体以及基础科学等领域。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645475898589774345/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">NVIDIA投入65亿美元押注光子技术，突破AI光学互联瓶颈</div>
+                <div class="news-summary">NVIDIA三个月内向光子技术初创公司投入至少65亿美元，瞄准AI光学互联瓶颈。传统铜线传输遇墙，光传输不受限制，此举被视为构建下一代AI基础设施护城河的关键战略。</div>
+                <a class="news-link" href="https://contentbuffer.com/news" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">理想汽车成立三个具身智能部门，加速AI与汽车深度融合</div>
+                <div class="news-summary">理想汽车完成新一轮组织调整，在基座模型部门下新增具身工程、具身交互、具身行为三个二级部门。具身智能旨在让AI拥有"身体"，能感知和操控物理世界，李想押注该方向的意图愈发明确。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645469987187999283/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item ai-item">
+                <div class="news-title">企业AI搜索Glean年收入突破3亿美元，核心卖点转向"帮企业砍预算"</div>
+                <div class="news-summary">企业AI搜索公司Glean年化收入突破3亿美元，核心卖点从"帮员工找信息"转向"帮企业砍预算"，用AI自动化替代人工流程降本。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645237887792841266/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 Anthropic融资650亿美元估值近万亿 | Claude Opus 4.8发布编程能力暴涨 | 字节Seedance 2.0登陆戛纳 | 40余款大模型亮相世界智能产业博览会</div>
+    </div>
+
     <!-- 5月29日 AI -->
-    <div class="date-content active" id="ai-20260529">
+    <div class="date-content" id="ai-20260529">
         <div class="category-block">
             <div class="category-title ai-sub">📝 AI生成文本</div>
             <div class="news-item ai-item">
@@ -1032,8 +1110,78 @@
         <span class="column-header-text">航司营销数字化</span>
     </div>
 
+    <!-- 5月30日 航司 -->
+    <div class="date-content active" id="av-20260530">
+        <div class="category-block">
+            <div class="category-title aviation-sub">🎫 会员与常旅客</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">东航六一系列活动：邀请好友赢上海迪士尼门票，航空职业亲子体验</div>
+                <div class="news-summary">东航"东方万里行"推出六一系列活动，5月28日至6月24日会员参与"童飞梦想"合影助力，邀请9位好友助力可抽奖赢上海迪士尼门票。5月30日东航研发中心举办首期航空客舱亲子营，让"小飞人"沉浸式体验航空职业。六一当天指定航班E舱及以上会员可领取文创伴手礼。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7644819142486295103/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">三大航集体升级学生会员权益，国航送选座券东航师生惠直减10%</div>
+                <div class="news-summary">国航、东航、南航集体推出学生专属优惠权益。国航完成学生认证可获国内选座服务1次及国际选座200元优惠券；东航"师生惠"国内经济舱至高额外直减8%、公务舱直减10%；南航认证学生购买"学生专享"标签航班享专属折扣价并含20kg免费行李额。</div>
+                <a class="news-link" href="https://www.163.com/dy/article/KTUQAKOO051494GR.html" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🤖 数据与AI应用</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">天津航空AI智能手语翻译机亮相世界智能产业博览会</div>
+                <div class="news-summary">天津航空作为唯一合作航司亮相2026世界智能产业博览会，投放AI智能手语翻译设备，成为国内首家落地该智能设备的航司。设备能快速识别听障人士手语并实时转译给服务人员，有效解决传统沟通效率低的问题。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645154324800127551/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">ATPCO Elevate 2026揭示三大趋势：AI将颠覆航空搜索模式</div>
+                <div class="news-summary">ATPCO Elevate 2026大会揭示三大趋势：动态报价融合传统报价、消费者需要更相关报价、AI将颠覆当前搜索模式。达美航空分享AI驱动近实时调价技术，美联航强调数据价值在于应用而非拥有。</div>
+                <a class="news-link" href="https://atpco.net/single-blog/elevate-2026-when-data-in-motion-offers-in-action-takes-flight/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📱 渠道与触点</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">汉莎航空联名G2电竞战队跨界营销，全球曝光量突破1.15亿</div>
+                <div class="news-summary">WPP Media携手汉莎航空与G2战队打造跨界营销案例，汉莎航空全球曝光量突破1.15亿，互动量近30万。内容策略采用"内容赋能，低耗植入"，以"欧洲启程，中国相见"为主题，实现声量与销量双提升。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7644798487230333466/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">天津航空主题专机首航，270余航班传播世界智能产业博览会主题</div>
+                <div class="news-summary">天津航空打造"世界智能产业博览会主题专机"并完成首航，将常态执飞天津往返重庆、广州等航线。同时整合线上线下、空中地面全域宣传资源，每日在270余个航班上传播博览会主题。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645154324800127551/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">🔧 技术与数字化</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">天阳科技联手海南航空，共建10年航空互联网运营平台</div>
+                <div class="news-summary">天阳科技与海南航空、环球航通签署航空互联网项目建设与运营合同，在合作机队上运营航空互联网平台，提供机上娱乐、广告经营、商业活动等服务，合同期10年。平台将整合广告、电商、网络服务与金融科技能力。</div>
+                <a class="news-link" href="https://m.sohu.com/a/1028427457_122611088/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">双汇赴春秋航空考察，探索"航空+文旅"跨界合作新模式</div>
+                <div class="news-summary">双汇发展董事长万宏伟率队赴春秋航空考察，探索"航空+文旅"跨界合作新模式。双方就机上即食产品、定制餐食研发、品牌联合营销等合作方向进行务实磋商，明确以安全健康、便捷美味、高性价比为核心的合作方向。</div>
+                <a class="news-link" href="https://post.m.smzdm.com/p/120914776/" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="category-block">
+            <div class="category-title aviation-sub">📊 市场与战略</div>
+            <div class="news-item aviation-item">
+                <div class="news-title">第十届中国低成本航空峰会召开：LCC 2.0时代来临</div>
+                <div class="news-summary">第十届中国低成本航空高峰会议在上海召开，主题为"结构性重塑"。与会者一致认为低成本航司正迈向以数字化零售、高研发投入、精细化辅助营收为特征的智慧成本新阶段。酷航分享深度融入KrisFlyer会员体系撬动辅助营收增量的经验。</div>
+                <a class="news-link" href="http://m.toutiao.com/group/7645300720299688494/" target="_blank">🔗 原文链接</a>
+            </div>
+            <div class="news-item aviation-item">
+                <div class="news-title">NDC在中国推了十多年，为何没有上演"分销大战"</div>
+                <div class="news-summary">NDC在中国已走过十多年，但业内预言的"NDC颠覆中国分销格局"并未发生。中国航信提供统一分销骨干网，航司无法通过NDC与传统GDS博弈，形成与欧美完全不同的发展路径。</div>
+                <a class="news-link" href="https://www.163.com/dy/article/KU1UI4EB05118QUG.html" target="_blank">🔗 原文链接</a>
+            </div>
+        </div>
+        <div class="highlight-box">📌 三大航集体升级学生权益 | 天津航空AI手语翻译机亮相智博会 | 汉莎航空电竞跨界曝光1.15亿 | 天阳科技联手海航共建10年航空互联网平台</div>
+    </div>
+
     <!-- 5月29日 航司 -->
-    <div class="date-content active" id="av-20260529">
+    <div class="date-content" id="av-20260529">
         <div class="category-block">
             <div class="category-title aviation-sub">🎫 会员与常旅客</div>
             <div class="news-item aviation-item">
